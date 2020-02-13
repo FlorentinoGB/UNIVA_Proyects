@@ -1,0 +1,157 @@
+*{
+    margin:0 px;
+    padding:0 px;
+    box-sizing: border-box;
+}
+
+body{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body>header {
+    
+    background-image: url(Imagenes/H_Imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    width: 100%;
+    height: 120px;
+    background-color: darkblue;
+}
+
+body>header>img{
+    width: 120px;
+    height: 120px;
+}
+
+body>header>h1{
+    float: right;
+    margin-right: 150px;
+    color: gray;
+}
+
+body>nav{
+    color: white;
+    background-color: darkgreen;
+    list-style-type: none;
+    text-align: center;
+    white-space: nowrap;
+}
+
+body>nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+}
+
+body>nav>ul>li {
+    display: inline;
+    text-decoration: none;
+    text-align: center;
+    text-justify: auto;
+    font-size: 20px;
+}
+
+body>nav>ul>li>a{
+    padding: 5px 80px;
+    color: white;
+    text-decoration:none;
+    margin-top: 50px;
+}
+
+body>nav>ul>li>a:hover{
+    color: yellowgreen;
+    text-decoration:none;
+    font-size: 25px;
+}
+
+body>section{
+
+   /* background-image: url(Imagenes/H_Imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 390px;
+    background-color:lightseagreen;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body>section>article>div>section{
+
+     background-image: url(Imagenes/H_Imagen.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-attachment: fixed;
+     background-position: top;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     width: 100%;
+     height: 390px;
+     background-color:lightseagreen;
+     padding-left: 20px;
+     padding-right: 20px;
+ }
+ 
+
+body>section>article>img{
+    width: 550px;
+    height: 300px;
+    float: left;
+    margin-top: 50px;
+}
+
+body>section>article>div>img{
+    width: 600px;
+    height: 300px;
+    float: right;
+    margin-right: 50px;
+}
+
+
+body>section>div>h2{
+    font-size: 30px;
+    color: rgb(7, 5, 90);
+}
+
+
+body>section>div>h3{
+    font-size: 46px;
+    text-align: right;
+    padding-right: 300px;
+    color: whitesmoke
+}
+
+body>section>div>h4{
+    font-size: 30px;
+    float: left;
+    color: whitesmoke
+}
+
+body>section>article>div>section>h5{
+    font-size: 30px;
+    float: left;
+    color: black;
+}
+
+body>section>article>div>section>div{
+    font-size: 20px;
+    float: right;
+    color: black;
+}
+
+
+body>footer{
+    text-align: center;
+    background-color: darkslategray;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
